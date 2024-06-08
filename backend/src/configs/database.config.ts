@@ -1,10 +1,11 @@
 const mongoose = require("mongoose");
 require('dotenv').config();
 
+const uri = process.env.MONGO_URI;
 
 module.exports.getDbConnection = function(){
     
-    mongoose.connect('mongodb+srv://ViralParmar:drinkeatfun@cluster0.epzdxij.mongodb.net/drinkeatfun?retryWrites=true&w=majority&appName=Cluster0').then(()=>{
+    mongoose.connect(uri).then(()=>{
         console.log("Database Connected Successfully");
     })
     .catch((err:any)=>{
