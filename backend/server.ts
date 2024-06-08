@@ -1,4 +1,4 @@
-import express from "express";
+const express = require('express');
 import cors from "cors";
 import foodRouter from './src/routers/food.router';
 import userRouter from './src/routers/user.router';
