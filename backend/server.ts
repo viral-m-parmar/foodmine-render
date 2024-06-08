@@ -1,5 +1,5 @@
 const express = require('express');
-import cors from "cors";
+const cors = require('cors');
 import foodRouter from './src/routers/food.router';
 import userRouter from './src/routers/user.router';
 import orderRouter from './src/routers/order.router';
