@@ -1,5 +1,5 @@
-const express = require('express');
-const cors = require('cors');
+var express = require('express');
+var cors = require('cors');
 const foodRouter = require('./src/routers/food.router');
 const userRouter = require('./src/routers/user.router');
 const orderRouter = require('./src/routers/order.router');
