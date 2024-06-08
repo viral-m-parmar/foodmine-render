@@ -79,4 +79,4 @@ const generateTokenResponse = (user:User) => {
     
 }
 
-export default router;
+module.exports = router;

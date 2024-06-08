@@ -26,4 +26,4 @@ router.post('/create', expressAsyncHandler(
     }
 ))
 
-export default router;
+module.exports = router;

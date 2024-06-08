@@ -79,4 +79,4 @@ router.get("/:foodId", expressAsyncHandler(
     }
 ))
 
-export default router;
+module.exports = router;
