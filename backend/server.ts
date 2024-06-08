@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors');
-import foodRouter from './src/routers/food.router';
-import userRouter from './src/routers/user.router';
-import orderRouter from './src/routers/order.router';
+const foodRouter = require('./src/routers/food.router');
+const userRouter = require('./src/routers/user.router');
+const orderRouter = require('./src/routers/order.router');
 require('./src/configs/database.config').getDbConnection();
 
 const app = express();
